@@ -1,0 +1,24 @@
+body {
+    background: lavenderblush;
+}
+
+.bucket {
+    height: 300px;
+    width: 250px;
+    border: black solid;
+    border-width: 0 4px 4px 4px;
+    border-radius: 13%;
+    background: url(water.png);
+    background-size: 250px 150px;
+    background-repeat: repeat-x;
+    animation: flow 5s linear infinite;
+}
+
+@keyframes flow {
+    0% {
+        background-position: -1200px 150px;
+    }
+    100% {
+        background-position: 0px 150px;
+    }
+}
