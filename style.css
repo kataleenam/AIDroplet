@@ -28,12 +28,42 @@ button {
 }
 
 #title {
-    color: rgb(63, 98, 195);
+    color: #3f62c3;
     margin-bottom: 0;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 0;
+}
+
+#info {
+    padding: 0;
+    margin-top: -25px;
+}
+
+#infoBtn {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3f62c3;
+    color:#F2EFE9;
+    padding: 0;
+}
+
+#infoBtn:hover{
+    background-color: #6e8de2;
 }
 
 #tagline {
     margin-top: 0;
+    text-align: center;
 }
 
 #addBtn {
@@ -92,5 +122,6 @@ button {
 }
 
 #warning-btn:hover {
-    background-color: rgb(172, 166, 166);
+    background-color: #aca6a6;
 }
+
