@@ -4,7 +4,7 @@
     "description": "Extension that tracks how much water is depleted with the use of AI",
     "version": "1.0",
     "icons": {
-      "16": "images/ext-icon.png"
+      "16": "ext-icon.png"
     },
     "action": {
       "default_popup": "index.html"
