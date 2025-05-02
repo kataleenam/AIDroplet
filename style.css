@@ -80,7 +80,7 @@ button {
     border: black solid;
     border-width: 0 2px 2px 2px;
     border-radius: 13%;
-    background: url(water.png);
+    background: url(images/water.png);
     background-size: 300px 175px;
     background-repeat: repeat-x;
     animation: flow 5s linear infinite;
