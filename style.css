@@ -1,24 +1,64 @@
-body {
-    background: lavenderblush;
+:root {
+    --level: 175px;
 }
 
-.bucket {
-    height: 300px;
-    width: 250px;
+body {
+    background: #F2EFE9;
+    text-align: center;
+}
+
+h4,button {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+#title {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(63, 98, 195);
+    margin-bottom: 0;
+}
+
+#tagline {
+    margin-top: 0;
+}
+
+#addBtn {
+    margin: 10px;
+    background-color: rgb(239, 139, 172);
+}
+
+#bucket {
+    height: 175px;
+    width: 150px;
     border: black solid;
-    border-width: 0 4px 4px 4px;
+    border-width: 0 2px 2px 2px;
     border-radius: 13%;
     background: url(water.png);
-    background-size: 250px 150px;
+    background-size: 300px 175px;
     background-repeat: repeat-x;
     animation: flow 5s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes flow {
     0% {
-        background-position: -1200px 150px;
+        background-position: -600px var(--level, 90px);
     }
     100% {
-        background-position: 0px 150px;
+        background-position: 0px var(--level, 90px);
     }
+}
+
+#warning {
+    
 }
